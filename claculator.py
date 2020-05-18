@@ -1,7 +1,7 @@
 #  considering two numbers
 
-num1=float(input())
-num2=float(input())
+num1=float(input(" Enter the First Number >>"))
+num2=float(input("Enter the First Number >>"))
 
 # calculations
 sum= num1+num2
@@ -12,14 +12,14 @@ mod=num1//num2
 
 # sum of two numbers
 
-print(sum)
+print("sum=",sum)
 #print("the sumof two numbers" sum)
 
 # difference of two numbers
 
-print(diff)
+print("difference=",diff)
 
-print(prod)
-print(div)
-print(mod)
+print("product=",prod)
+print("division=",div)
+print("modulus=",mod)
 
